@@ -5,6 +5,13 @@
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+/**
+ *
+ * @integrantes Kevin Chicaiza, Alex Muzo, Emily Guerron, Cesar Cueva, Carlos Robayo
+ * Metodos Numericos
+ * Paralelo 002
+ * Fecha: 09/06/2023
+ */
 public class calcularExpresion {
 
     public static BigDecimal regresar(double value) {
