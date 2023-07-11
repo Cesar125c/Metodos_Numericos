@@ -83,12 +83,12 @@ def new_win():
     window.mainloop()
 
 
-Frame(w, width=427, height=250, bg='#73171d').place(x=0,y=0)
-label1=Label(w, text='METODOS NUMÉRICOS', fg='white', bg='#73171d') #decorate it
+Frame(w, width=427, height=250, bg='#313338').place(x=0,y=0)
+label1=Label(w, text='METODOS NUMÉRICOS', fg='white', bg='#313338') #decorate it
 label1.configure(font=("Game Of Squids", 24, "bold"))   #You need to install this font in your PC or try another one
 label1.place(x=30,y=90)
 
-label2=Label(w, text='Cargando...', fg='white', bg='#73171d') #decorate it
+label2=Label(w, text='Cargando...', fg='white', bg='#313338') #decorate it
 label2.configure(font=("Calibri", 11))
 label2.place(x=10,y=215)
 
