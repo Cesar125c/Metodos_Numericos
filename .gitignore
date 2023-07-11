@@ -1,2 +1,6 @@
 # Default ignored files
 /Unidad_1/
+# .idea files
+/Metodos_Numericos/.idea/
+# pycharm cache
+/Metodos_Numericos/__pycache__/
