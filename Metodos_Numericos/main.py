@@ -36,7 +36,7 @@ def new_win():
     window.configure(bg='#2b2d31')
 
     # Icono de la aplicacion
-    icon = ImageTk.PhotoImage(Image.open('icon.png'))
+    icon = ImageTk.PhotoImage(Image.open('Imagenes/icon.png'))
     window.iconphoto(True, icon)
 
     # Texto
