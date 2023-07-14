@@ -30,8 +30,5 @@ En este repositorio se presenta los proyectos realizados a lo largo del presente
   <li>numpy</li>
   <li>sympy</li>
 </ul>
-<hr>
-<h2>Pantalla principal del programa</h2>
-<p>Imagen ejemplo de la interfaz de usuario encontrada en el prorama: </p>
-![mainMenu](https://1drv.ms/i/s!AujWrt7p_3gY_U3kq5hOhbu0WeZ_?e=degdA7)
+
 
