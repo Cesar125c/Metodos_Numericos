@@ -19,3 +19,17 @@ En este repositorio se presenta los proyectos realizados a lo largo del presente
 <p align="center">
   El proyecto se seguira actualizando a lo largo del resto del semestre, implementando los nuevos códigos realizados, asi mismo implementando mejoras gráficas y de diseño del mismo.
 </p>
+
+<hr>
+
+<h2> Requerimientos del programa</h2>
+<p> Los siguientes son librerias utilizadas y necesarias para el funcionamiento del programa: </p>
+<ul>
+  <li>Pillow</li>
+  <li>matplotlib</li>
+  <li>numpy</li>
+  <li>sympy</li>
+
+  
+  
+</ul>
