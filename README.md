@@ -29,7 +29,10 @@ En este repositorio se presenta los proyectos realizados a lo largo del presente
   <li>matplotlib</li>
   <li>numpy</li>
   <li>sympy</li>
-
-  
-  
 </ul>
+<hr>
+<h2>Pantalla principal del programa</h2>
+<p>Imagen ejemplo de la interfaz de usuario encontrada en el prorama: </p>
+![mainMenu](https://github.com/Cesar125c/Metodos_Numericos/assets/110276935/dfadbd64-0458-48ef-8ec7-0a8820921ebe)
+
+
