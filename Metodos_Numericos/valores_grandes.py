@@ -20,6 +20,10 @@ def valores_grandes():
     titulo_label.pack()
 
     def calcular_valor():
+        #   Validar si hay un valor ingresado
+        if x_field.get() == '':
+            messagebox.showinfo(message="Por favor ingrese un valor")
+
         x = int(x_field.get())
         x_parte1 = math.exp(x)
         x_parte2 = (math.exp(x)) - 1
@@ -41,7 +45,7 @@ def valores_grandes():
             res_field.pack()
 
     # Crear los botones y espacios
-    x_label = tk.Label(window4, text=("Ingrese un valor para x > 250"))
+    x_label = tk.Label(window4, text="Ingrese un valor para x > 250")
     x_label.config(font=('montserrat bold', 10), foreground='white', bg='#2b2d31')
     x_field = tk.Entry(window4)
 

@@ -21,6 +21,10 @@ def conversor_numeros():
 
     # Este metodo convierte un Binario a Decimal
     def convertir_a_decimal():
+        #   Validar si hay un valor ingresado
+        if bin_field.get() == '':
+            messagebox.showinfo(message="Por favor ingrese un valor")
+
         binario = int(bin_field.get())
 
         def bin_a_decimal(binario):
@@ -35,10 +39,15 @@ def conversor_numeros():
                 decimal += int(digito) * multiplicador
                 posicion += 1
             return decimal
-        messagebox.showinfo(message="El nùmero binario convertido a decimal es: " + str(bin_a_decimal(binario)), title="decimal")
+        messagebox.showinfo(message="El nùmero binario convertido a decimal es: " + str(bin_a_decimal(binario)),
+                            title="decimal")
 
     # Este metodo convierte un Decimal a Binario
     def convertir_a_binario():
+        #   Validar si hay un valor ingresado
+        if dec_field.get() == '':
+            messagebox.showinfo(message="Por favor ingrese un valor")
+
         decimal = int(dec_field.get())
         if decimal <= 0:
             messagebox.showinfo("0")
@@ -58,14 +67,16 @@ def conversor_numeros():
     bin_label.config(font=('montserrat bold', 10), foreground='white', bg='#2b2d31')
     bin_field = tk.Entry(window2)
 
-    bin_button = tk.Button(window2, text="Convertir a Decimal", bg='#404249', activebackground='#2b2d31', command=convertir_a_decimal)
+    bin_button = tk.Button(window2, text="Convertir a Decimal", bg='#404249', activebackground='#2b2d31',
+                           command=convertir_a_decimal)
     bin_button.config(width=15, foreground='white', font='bold')
 
     dec_label = tk.Label(window2, text="Decimal:", pady=10)
     dec_label.config(font=('montserrat bold', 10), foreground='white', bg='#2b2d31')
     dec_field = tk.Entry(window2)
 
-    dec_button = tk.Button(window2, text="Convertir a Binario", bg='#404249', activebackground='#2b2d31', command=convertir_a_binario)
+    dec_button = tk.Button(window2, text="Convertir a Binario", bg='#404249', activebackground='#2b2d31',
+                           command=convertir_a_binario)
     dec_button.config(width=15, foreground='white', font='bold')
 
     # Agrega los widgets

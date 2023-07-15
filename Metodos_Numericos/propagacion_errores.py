@@ -19,6 +19,10 @@ def propagacion():
     titulo_label.pack()
 
     def calcular_propagacion():
+        #   Validar si hay un valor ingresado
+        if (valmedido_field.get() == '') | (errorMedido_field.get() == '') | (const_field.get() == ''):
+            messagebox.showinfo(message="Por favor ingrese un valor")
+
         valor_medido = float(valmedido_field.get())
         error_medido = float(errorMedido_field.get())
         cst_propagacion = float(const_field.get())

@@ -19,6 +19,10 @@ def errores():
     titulo_label.pack()
 
     def calcular_errores():
+        #   Validar si hay un valor ingresado
+        if (valr_field.get() == '') | (valora_field.get() == ''):
+            messagebox.showinfo(message="Por favor ingrese un valor")
+
         valor_real = float(valr_field.get())
         valor_aproximado = float(valora_field.get())
 
@@ -27,7 +31,7 @@ def errores():
         error_porcentual = abs(valor_real - valor_aproximado) / abs(valor_real) * 100
 
         messagebox.showinfo(message="Error absoluto: " + str(error_absoluto) + "\n" +
-                            "Error relativo: " + str(error_relativo) + "\n"+
+                            "Error relativo: " + str(error_relativo) + "\n" +
                             "Error porcentual: " + str(error_porcentual))
 
     # Crear botones y espacios
@@ -40,7 +44,8 @@ def errores():
     valora_label.config(font=('montserrat bold', 10), foreground='white', bg='#2b2d31')
     valora_field = tk.Entry(window_errores)
 
-    calcular_button = tk.Button(window_errores, text="Calcular errores", bg='#404249', activebackground='#2b2d31', command=calcular_errores)
+    calcular_button = tk.Button(window_errores, text="Calcular errores", bg='#404249', activebackground='#2b2d31',
+                                command=calcular_errores)
     calcular_button.config(width=15, foreground='white', font='bold')
 
     # Agregar los widgets

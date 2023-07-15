@@ -31,6 +31,8 @@ def punto_flotante():
 
     # Convierte el numero dado a bits
     def convertir_a_bits():
+        if (number_field.get() == '')|(bits_field.get() == ''):
+            messagebox.showinfo(message="Por favor ingrese un valor")
 
         numero = int(number_field.get())
         bits = int(bits_field.get())
@@ -39,7 +41,8 @@ def punto_flotante():
 
         messagebox.showinfo(message="El nùmero convertido a bits es: " + str(binaryString), title="bits")
 
-    convert_button = tk.Button(window1, text="Convertir", bg='#404249', activebackground='#2b2d31', command=convertir_a_bits)
+    convert_button = tk.Button(window1, text="Convertir", bg='#404249', activebackground='#2b2d31',
+                               command=convertir_a_bits)
     convert_button.config(width=15, foreground='white', font='bold')
 
     # Add the widgets to the layout
