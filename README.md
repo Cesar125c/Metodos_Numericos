@@ -1,34 +1,36 @@
-<h1 align="center">
-Métodos Numericos
-</h1>
+<div align="center">
+  <h1>Métodos Numéricos</h1>
+</div>
 
-<p align="center">
-En este repositorio se presenta los proyectos realizados a lo largo del presente semestre en la materia de métodos numéricos cuarto semestre. 
-</p>
-<p>
-  Los integrantes del grupo son:
-</p>
-<ul>
-  <li>Kevin Chicaiza
-  <li>Cesar Cueva
-  <li>Emily Guerron
-  <li>Alex Muzo
-  <li>Carlos Robayo  
-</ul>
+En este repositorio se presentan los proyectos realizados a lo largo del presente semestre en la materia de Métodos Numéricos del cuarto semestre.
 
-<p align="center">
-  El proyecto se seguira actualizando a lo largo del resto del semestre, implementando los nuevos códigos realizados, asi mismo implementando mejoras gráficas y de diseño del mismo.
-</p>
+Los integrantes del grupo son:
+- Kevin Chicaiza
+- Cesar Cueva
+- Emily Guerron
+- Alex Muzo
+- Carlos Robayo
 
-<hr>
+El proyecto se seguirá actualizando a lo largo del resto del semestre, implementando los nuevos códigos realizados, así como mejoras gráficas y de diseño.
 
-<h2> Requerimientos del programa</h2>
-<p> Los siguientes son librerias utilizadas y necesarias para el funcionamiento del programa: </p>
-<ul>
-  <li>Pillow</li>
-  <li>matplotlib</li>
-  <li>numpy</li>
-  <li>sympy</li>
-</ul>
+---
 
+<div align="center">
+  <h1>Requerimientos del Programa</h1>
+</div>
 
+Los siguientes son las librerías utilizadas y necesarias para el funcionamiento del programa:
+- Pillow
+- matplotlib
+- numpy
+- sympy
+
+---
+
+<div align="center">
+  <h1>Imágen Vista Previa del Programa</h1>
+</div>
+
+<div align="center">
+  <img src="Metodos_Numericos/Imagenes/Main_menu.png" alt="Ejemplo de imagen">
+</div>
