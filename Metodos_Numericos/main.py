@@ -1,10 +1,8 @@
 # importar librerias
 from tkinter import *
-from tkinter import font
 from PIL import ImageTk, Image
 import time
 import tkinter as tk
-from tkinter import ttk
 from punto_flotante import punto_flotante
 from conversor_numeros import conversor_numeros
 from metodo_biseccion import metodo_biseccion
