@@ -69,7 +69,7 @@ def kutta():
     canvas.draw()
 
   # Crear el gráfico de Matplotlib
-  fig = Figure(figsize=(8, 6))
+  fig = Figure(figsize=(6, 4))
   ax = fig.add_subplot(111)
 
   # Crear el widget Canvas para el gráfico
