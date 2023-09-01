@@ -12,6 +12,7 @@ from valores_grandes import valores_grandes
 from errores import errores
 from creditos import creditos
 from propagacion_errores import propagacion
+from runge_kutta import kutta
 
 
 w = Tk()
@@ -30,7 +31,7 @@ w.overrideredirect(1)   # for hiding titlebar
 
 def new_win():
     window = tk.Tk()
-    window.geometry("450x450")
+    window.geometry("450x550")
     window.title("Mètodos Numèricos")
     window.eval('tk::PlaceWindow . center')
     window.configure(bg='#2b2d31')
@@ -74,6 +75,16 @@ def new_win():
     boton6 = tk.Button(window, text="Propagación Errores", command=propagacion, bg='#404249', activebackground='#2b2d31')
     boton6.config(width=15, foreground='white', font='bold')
     boton6.pack(padx=5, pady=5, ipadx=5, ipady=5)
+
+    boton7 = tk.Button(window, text="Runge-Kutta", command=kutta, bg='#404249',
+                       activebackground='#2b2d31')
+    boton7.config(width=15, foreground='white', font='bold')
+    boton7.pack(padx=5, pady=5, ipadx=5, ipady=5)
+
+    boton8 = tk.Button(window, text="Ejercicio extra 2", bg='#404249',
+                       activebackground='#2b2d31')
+    boton8.config(width=15, foreground='white', font='bold')
+    boton8.pack(padx=5, pady=5, ipadx=5, ipady=5)
 
     boton7 = tk.Button(window, text="Créditos", command=creditos, bg='#404249', activebackground='#2b2d31')
     boton7.config(width=15, foreground='white', font='bold')
