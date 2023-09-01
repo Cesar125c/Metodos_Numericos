@@ -13,6 +13,7 @@ from errores import errores
 from creditos import creditos
 from propagacion_errores import propagacion
 from runge_kutta import kutta
+from metodo_implicito import implicito
 
 
 w = Tk()
@@ -81,7 +82,7 @@ def new_win():
     boton7.config(width=15, foreground='white', font='bold')
     boton7.pack(padx=5, pady=5, ipadx=5, ipady=5)
 
-    boton8 = tk.Button(window, text="Ejercicio extra 2", bg='#404249',
+    boton8 = tk.Button(window, text="Método Implícito", command=implicito, bg='#404249',
                        activebackground='#2b2d31')
     boton8.config(width=15, foreground='white', font='bold')
     boton8.pack(padx=5, pady=5, ipadx=5, ipady=5)
